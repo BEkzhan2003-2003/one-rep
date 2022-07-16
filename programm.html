@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./new-css/prohramm.css">
+</head>
+<body>
+
+    <div class="NAV-foot">
+    <div class="shapca-1">
+        <div class="shapca">
+            <a href="glavnoe.html#">
+                <img class="LOgo" src="./new-img/LOgo-removebg-preview.png" alt="">   
+            </a>            <!-- Профиль -->
+        <!-- Профиль -->
+        </div>
+        
+        <!-- Регистрация-->
+        <div class="modal1">
+            <div class="modal-window">
+                <h3>Регистрация</h3>
+            </div>
+        </div>
+        <!-- Регистрация end -->
+    
+        <!-- Вход -->
+            <div class="teg">
+                <h3>
+                    Вход
+                </h3>
+            </div>
+        <!-- Вход -->
+    </div>
+
+    <div class="opisanie">
+        <div class="opisanie-2">
+            Программалоо боюнча суроолор
+        </div>
+    </div>
+    <div class="langu">
+            <a href="file:///C:/Users/User/Desktop/new-form/kategoria.html">
+            <div class="python">
+                <img src="./new-img/py.png" alt="">
+                <h3>Python</h3>
+            </div>
+        </a>
+ <a href="file:///C:/Users/User/Desktop/new-form/kategoria.html">
+            <div class="python">
+                <img src="./new-img/py.png" alt="">
+                <h3>Python</h3>
+            </div>
+        </a>
+        <a href="file:///C:/Users/User/Desktop/new-form/kategoria.html">
+            <div class="python">
+                <img src="./new-img/py.png" alt="">
+                <h3>Python</h3>
+            </div>
+        </a> 
+        <a href="file:///C:/Users/User/Desktop/new-form/kategoria.html">
+            <div class="python">
+                <img src="./new-img/py.png" alt="">
+                <h3>Python</h3>
+            </div>
+        </a> 
+        <a href="file:///C:/Users/User/Desktop/new-form/kategoria.html">
+            <div class="python">
+                <img src="./new-img/py.png" alt="">
+                <h3>Python</h3>
+            </div>
+        </a> 
+        <a href="file:///C:/Users/User/Desktop/new-form/kategoria.html">
+            <div class="python">
+                <img src="./new-img/py.png" alt="">
+                <h3>Python</h3>
+            </div>
+        </a> 
+    </div>
+
+
+    <!-- POPAP-REGISTR -->
+    <div class="popaps__inner">
+        <div class="popap callme__popap">
+            <a href="#" class="clouse_popap">&#10006;</a>
+            <h3>Регистрация</h3>
+            <!-- <p>введите</p> -->
+            <form action="#">
+                <input type="text" name="name" placeholder="Имя">
+                <input type="text" name="name" placeholder="Фамилия">
+                <input type="email" name="name" placeholder="E  mail">
+                <input type="password" name="" placeholder="Пароль" >
+                <input type="submit" class="sub" name="name" value="Регистрация">
+            </form>
+        </div>
+    </div> 
+ <!-- POPAP-REGISTR -->
+
+ <!-- popap-vhod -->
+    <div class="vhod__inner">
+        <div class="vhod callme__popap">
+            <a href="#" class="clouse_vhod">&#10006;</a>
+            <h3>Вход</h3>
+            <form action="#">
+                <input type="email" name="name" placeholder="Логин">
+                <input type="password" name="name" placeholder="Пароль">
+                <input type="submit" class="sub-2" name="name" value="Вход">
+            </form>
+        </div>
+    </div>
+<!-- popap-vhod -->
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            console.log("euuu");
+        })
+    //  POPAP-REGISTR 
+        $('.modal-window').on('click',function(){
+            $('.popaps__inner').addClass('active');
+        });
+
+        $('.clouse_popap').on('click',function(){
+            $('.popaps__inner').removeClass('active');
+        });
+        $('.sub').on('click',function(){
+            $('.popaps__inner').removeClass('active');
+        });
+    //  POPAP-REGISTR end
+    
+    // popap-vhod
+        $('.teg').on('click',function(){
+            $('.vhod__inner').addClass('active');
+        });
+        $('.clouse_vhod').on('click',function(){
+            $('.vhod__inner').removeClass('active');
+        });
+        $('.sub-2').on('click',function(){
+            $('.vhod__inner').removeClass('active');
+        });
+    // popap-vhod end
+
+    </script>
+    </div>
+        <br><br>
+        <footer>
+            <div class="DIV">
+                <div class="pomosh">Жардам</div>
+                <div class="creat">Биз жонундо</div>
+                <div class="shtoto">lore</div>
+            </div>
+        
+            <div class="contact">
+                <img src="./new-img/icons8-whatsapp-24.png" alt="">
+                <img src="./new-img/icons8-instagram-24.png" alt="">
+                <img src="./new-img/icons8-facebook-новый-24.png" alt="">
+            </div>
+        </footer>
+</body>
+</html>

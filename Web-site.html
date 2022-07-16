@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./new-css/Web-site.css">
+</head>
+<body>
+
+    <div class="shapca-1">
+        <div class="shapca">
+            <a href="glavnoe.html#">
+                <img class="LOgo" src="./new-img/Last-logo_cut-photo.ru.png" alt="">
+            </a>            <!-- Профиль -->
+        <!-- Профиль -->
+        </div>
+       
+        <!-- Регистрация-->
+        <div class="modal1">
+            <div class="modal-window">
+                <h3>Регистрация</h3>
+            </div>
+        </div>
+        <!-- Регистрация end -->
+    
+        <!-- Вход -->
+            <div class="teg">
+                <h3>
+                    Вход
+                </h3>
+            </div>
+        <!-- Вход -->
+    </div>
+    <h4>
+        Биздин миссия
+    </h4>
+    <div class="Mission">
+        <div class="missin-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium culpa sapiente quaerat &nbsp; debitis corporis sunt consequatur iusto, veniam sint vero non expedita laboriosam fugit  voluptatem  cum praesentium, sequi neque  itaque hic enim iste asperiores minus incidunt!  Ex &nbsp; excepturi blanditiis repudiandae nihil quaerat. Ullam totam nisi laboriosam placeat sequi, &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; blanditiis architecto quisquam vitae iusto facilis magnam natus qui eum, enim iure &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   suscipit minima facere nihil! Mollitia dolores repellat tenetur, ratione quis quia fuga voluptas molestiae alias. Libero veniam consequuntur sit commodi impedit eveniet, eligendi id nemo corporis mollitia voluptas ab, tenetur temporibus beatae ullam architecto illo exercitationem omnis minus. Assumenda, architecto!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus obcaecati nihil in adipisci accusantium amet asperiores eius quasi. Debitis ad reprehenderit ipsum cumque vero quis porro iste, et facilis omnis perferendis, ab ducimus voluptatum nesciunt cum excepturi optio id corrupti, necessitatibus delectus voluptate! Facilis in at nemo laudantium iste earum!
+        </div>
+
+    <img class="img-mission" src="./new-img/Миссия_cut-photo.ru-removebg-preview.png" alt="">    
+    </div>
+
+    
+
+<!-- POPAP-REGISTR -->
+<div class="popaps__inner ">
+    <div class="popap callme__popap">
+        <a href="#" class="clouse_popap">&#10006;</a>
+        <h3>Регистрация</h3>
+        <form action="#">
+            <input class="inp-class" type="text" name="name" placeholder="Имя">
+            <input class="inp-class" type="text" name="name" placeholder="Фамилия">
+            <input class="inp-class" type="email" name="name" placeholder="E  mail">
+            <input class="inp-class" type="password" name="" placeholder="Пароль" >
+            <input type="submit" class="sub" name="name" value="Регистрация">
+        </form>
+        <br>
+        <h2>lorem ipsum</h2>
+
+        <a href="">
+        <div class="sozial">
+            <img class="google" src="./new-img/icons8-google-50.png" alt="">Гугл аркылуу регистрациялануу
+        </div>
+        </a>
+    </div>
+</div> 
+<!-- POPAP-REGISTR -->
+
+<!-- popap-vhod -->
+<div class="vhod__inner ">
+<div class="vhod callme__popap">
+    <a href="#" class="clouse_vhod">&#10006;</a>
+    <h3>Вход</h3>
+    <form action="#">
+        <input class="two-inp-class" type="email" name="name" placeholder="Логин">
+        <input class="two-inp-class" type="password" name="name" placeholder="Пароль">
+        <input type="submit" class="sub-2" name="name" value="Вход">
+    </form>
+</div>
+<!-- popap-vhod -->
+</div>
+    
+        <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                console.log("euuu");
+            })
+        //  POPAP-REGISTR 
+            $('.modal-window').on('click',function(){
+                $('.popaps__inner').addClass('active');
+            });
+    
+            $('.clouse_popap').on('click',function(){
+                $('.popaps__inner').removeClass('active');
+            });
+            $('.sub').on('click',function(){
+                $('.popaps__inner').removeClass('active');
+            });
+        //  POPAP-REGISTR end
+        
+        // popap-vhod
+            $('.teg').on('click',function(){
+                $('.vhod__inner').addClass('active');
+            });
+            $('.clouse_vhod').on('click',function(){
+                $('.vhod__inner').removeClass('active');
+            });
+            $('.sub-2').on('click',function(){
+                $('.vhod__inner').removeClass('active');
+            });
+        // popap-vhod end
+        </script>
+</body>
+</html>

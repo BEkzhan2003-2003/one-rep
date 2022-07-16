@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./new-css/red-profil.css">
+</head>
+<body>
+    <div class="shapca-1">
+        <div class="shapca">
+            <img class="LOgo" src="./new-img/LOgo.png" alt="">
+        </div>
+        <div class="user">
+            <img style="width: 50px;" src="./new-img/1596432768businessperson-computer-icons-avatar-avatar-png-clip-art-removebg-preview.png" alt="">
+    </div>
+    </div>
+    <br>
+
+    <div class="pro__inner">
+        <div class="pro">
+            <a href="#" class="profil_close">x</a>
+                <img  src="https://www.learningelf.com/public/images/user_img/1596432768businessperson-computer-icons-avatar-avatar-png-clip-art.png" style="width: 100%; border-radius: 10px;" alt="">
+            <h2>User User</h2>
+            <div class="profil_text">12-коментарийлер
+                <div class="profil_text-2">
+                    <span style="font-size: 19px;">&#9825;</span>   
+                    10-лайктар
+                </div>
+            </div>
+            <nav class="navv">
+                <a href="#"> <button >Чыгуу</button> </a>
+                <a href="#"> <button style="background-color: rgb(245, 44, 18);">Сообщениялар</button> </a>
+            </nav>
+        </div>
+        </div>
+
+    <footer>
+        <div>lorem</div>
+        <div class="got-item">
+          
+            lorem
+            lorem
+        </div>
+        <div>oll</div>        
+    </footer>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                console.log("euuu");
+            })
+        // profil
+    
+        $('.user').on('click',function(){
+                $('.pro__inner').addClass('active');
+            });
+            $('.profil_close').on('click',function(){
+                $('.pro__inner').removeClass('active');
+            });
+            $('.pro button').on('click',function(){
+                $('.pro__inner').removeClass('active');
+            });
+    
+    
+        // profil
+    
+        </script>
+</body>
+</html>

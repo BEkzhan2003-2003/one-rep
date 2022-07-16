@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./new-css/zadat.css">
+</head>
+<body>
+
+    <nav class="NAV-foot">
+    
+        <div class="shapca-1">
+            <div class="shapca">
+                    <img class="LOgo" src="./new-img/Last-logo_cut-photo.ru.png" alt="">
+                <!-- Профиль -->
+            <!-- Профиль -->
+            </div>
+           
+            <!-- Регистрация-->
+            <div class="modal1">
+                <div class="modal-window">
+                    <h3>Регистрация</h3>
+                </div>
+            </div>
+            <!-- Регистрация end -->
+        
+            <!-- Вход -->
+                <div class="teg">
+                    <h3>
+                        Вход
+                    </h3>
+                </div>
+            <!-- Вход -->
+            </div>
+ <!-- POPAP-REGISTR -->
+
+ <!-- popap-vhod -->
+ <div class="vhod__inner ">
+    <div class="vhod callme__popap">
+        <a href="#" class="clouse_vhod">&#10006;</a>
+        <h3>Вход</h3>
+        <form action="#">
+            <input class="two-inp-class" type="email" name="name" placeholder="Логин">
+            <input class="two-inp-class" type="password" name="name" placeholder="Пароль">
+            <input type="submit" class="sub-2" name="name" value="Вход">
+        </form>
+
+        <br>
+
+            <p>Гугл аркылуу кируу
+                <hr color="white" size="0.5px">
+            </p>
+
+    <a href="">
+    <div class="sozial">
+        <a href="#">
+            <img class="google" src="./new-img/icons8-google-50.png" alt="">
+        </a>
+    </div>
+    </a> 
+
+    </div>
+
+
+  <!-- popap-vhod -->
+</div>
+
+<div class="vybor">
+    <div class="UL-1">
+            <b>
+                Суроо беруу
+            </b>
+    </div>
+</div>
+
+
+<div class="border">
+        <!-- <h1>Категория</h1> -->
+    <div class="GRID">
+ 
+        <form class="one-form" action="#">
+            <p>Тема</p>
+            <input placeholder="Теманы жазыныс" class="input" type="text" name="input" >
+        </form>
+        
+        <form class="form-2" action="#">
+        <p>Текст</p>           
+            <input placeholder="Текстти жазыныс" class="vvedite" type="text" name="text" ><br>
+            <input class="file" type="file" name="file">
+        </form>
+    </div>
+
+
+<div class="nizu">
+    <form action="#">
+        <select name="select">
+            <option selected disabled>Категория</option>
+        <option class="PRo" disabled>
+            Программалоо
+        </option>
+        <option class="programm" value="ooo">
+            Python
+        </option>
+        <option class="programm" value="ooo">
+            C#
+        </option>
+        <option class="programm" value="ooo">
+            Java
+        </option>
+        <option class="programm" value="ooo">
+            JS
+        </option>
+        <option class="programm" value="ooo">
+            Dart
+        </option>
+        <option class="Web" disabled> Вебиштеп чыгуу</option>
+        <option class="web-pro">
+            Django
+        </option>
+        <option class="web-pro">
+            JS
+        </option>
+        <option class="web-pro">
+            PHP
+        </option>
+        <option class="web-pro">
+            HTML
+        </option>
+        <option class="web-pro">
+            CSS
+        </option>
+    </select>
+</form>
+<button>Жонотуу</button>
+</div>
+</div>
+
+<!-- <br><br><br><br> -->
+
+ <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ <script>
+     $(document).ready(function(){
+         console.log("euuu");
+     })
+ //  POPAP-REGISTR 
+     $('.modal-window').on('click',function(){
+         $('.popaps__inner').addClass('active');
+     });
+
+     $('.clouse_popap').on('click',function(){
+         $('.popaps__inner').removeClass('active');
+     });
+     $('.sub').on('click',function(){
+         $('.popaps__inner').removeClass('active');
+     });
+ //  POPAP-REGISTR end
+ 
+ // popap-vhod
+     $('.teg').on('click',function(){
+         $('.vhod__inner').addClass('active');
+     });
+     $('.clouse_vhod').on('click',function(){
+         $('.vhod__inner').removeClass('active');
+     });
+     $('.sub-2').on('click',function(){
+         $('.vhod__inner').removeClass('active');
+     });
+ // popap-vhod end
+ </script>
+</nav>
+
+<br><br>
+<footer>
+    <div class="DIV">
+        <div class="pomosh">Жардам</div>
+        <div class="creat">Биз жонундо</div>
+        <div class="shtoto">lore</div>
+    </div>
+
+    <div class="contact">
+        <img src="./new-img/icons8-whatsapp-24.png" alt="">
+        <img src="./new-img/icons8-instagram-24.png" alt="">
+        <img src="./new-img/icons8-facebook-новый-24.png" alt="">
+    </div>
+    
+</footer>
+</body>
+</html>
